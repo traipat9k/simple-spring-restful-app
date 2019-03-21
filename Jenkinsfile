@@ -24,7 +24,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    dockerImage = docker.build("phayao/my-app")
+                    dockerImage = docker.build("traipatk/my-app")
                 }
             }
         }
